@@ -1,5 +1,5 @@
-SOURCE_URL=url of app's source
-SOURCE_SUM=sha256 checksum
+SOURCE_URL=https://github.com/gilbitron/Raneto/archive/refs/tags/0.17.0.tar.gz
+SOURCE_SUM=b4b1e86a191db923a20c3576d257f2f5e05d3da878cfc97028b2a8ff8f950a33
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true

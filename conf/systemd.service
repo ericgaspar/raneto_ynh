@@ -1,5 +1,5 @@
 [Unit]
-Description=Small description of the service
+Description=Renato
 After=network.target
 
 [Service]
@@ -7,9 +7,10 @@ Type=simple
 User=__APP__
 Group=__APP__
 WorkingDirectory=__FINALPATH__/
-ExecStart=__FINALPATH__/script
-StandardOutput=append:/var/log/__APP__/__APP__.log
-StandardError=inherit
+Environment="PORT=__PORT__"
+Environment="NODE_ENV=production"
+ExecStart=__YNH_NODE__
+
 
 # Sandboxing options to harden security
 # Depending on specificities of your service/app, you may need to tweak these 
