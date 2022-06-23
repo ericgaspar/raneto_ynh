@@ -43,6 +43,10 @@
             {
                 "name": "title",
                 "type": "string",
+                "ask": {
+                    "en": "Choose the application title",
+                    "fr": "Choisissez le titre de l'application"
+                },
                 "example": "raneto",
                 "default": ""
             },
