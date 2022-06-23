@@ -11,7 +11,7 @@ excerpt_length: 400
 // The base URL of your images folder,
 // Relative to config.public_dir
 // (can use %image_url% in Markdown files)
-image_url: '__DATAPATH__/images',
+image_url: '__DATADIR__/images',
 // Set to true to enable the web editor
  allow_editing : true,
 // Set to true to enable HTTP Basic Authentication
