@@ -3,11 +3,22 @@ site_title: 'Example Site',
 // The base URL of your site (can use  in Markdown files)
 base_url: '',
 // Used for the "Get in touch" page footer link
-support_email: 'support@example.com',
+support_email: 'support@__DOMAIN__',
 // Footer copyright content
 copyright: 'Copyright &copy; Example Site',
 // Excerpt length (used in search)
 excerpt_length: 400
+// Which Theme to Use?
+theme_dir  : path.join(__dirname, '..', 'themes'),
+theme_name : 'default',
+
+// Specify the path of your content folder where all your '.md' files are located
+// Fix: Needs trailing slash for now!
+// Fix: Cannot be an absolute path
+content_dir : path.join(__dirname, '__DATADIR__/content'),
+
+  // Where is the public directory or document root?
+  public_dir  : path.join(__dirname, '..', 'themes', 'default', 'public'),
 // The base URL of your images folder,
 // Relative to config.public_dir
 // (can use %image_url% in Markdown files)
