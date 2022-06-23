@@ -10,7 +10,7 @@ WorkingDirectory=__FINALPATH__/
 Environment="__YNH_NODE_LOAD_PATH__"
 Environment="PORT=__PORT__"
 Environment="NODE_ENV=production"
-ExecStart=__YNH_NODE__ __FINALPATH__/server.js
+ExecStart=__YNH_NODE__ ./example/server.js
 
 [Install]
 WantedBy=multi-user.target
