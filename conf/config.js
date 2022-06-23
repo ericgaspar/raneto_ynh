@@ -1,11 +1,11 @@
 // Your site title (format: page_title - site_title)
-site_title: 'Example Site',
+site_title: '__TITLE__',
 // The base URL of your site (can use  in Markdown files)
-base_url: '',
+base_url: '__PATH__',
 // Used for the "Get in touch" page footer link
 support_email: 'support@__DOMAIN__',
 // Footer copyright content
-copyright: 'Copyright &copy; Example Site',
+copyright: 'Copyright &copy; __TITLE__',
 // Excerpt length (used in search)
 excerpt_length: 400
 // Which Theme to Use?
