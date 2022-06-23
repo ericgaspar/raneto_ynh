@@ -125,7 +125,7 @@ ynh_script_progression --message="Adding a configuration file..." --weight=1
 key=$(ynh_string_random --length=24)
 ynh_add_config --template="../conf/config.js" --destination="$final_path/config.js"
 
-chmod 400 "$final_path/config.js"
+chmod 650 "$final_path/config.js"
 chown $app:$app "$final_path/config.js"
 
 #=================================================
