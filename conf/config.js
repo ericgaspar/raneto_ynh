@@ -32,13 +32,8 @@ authentication_for_edit: true,
 // If authentication is enabled, set this to true to enable authentication for reading too
 authentication_for_read: false,
 
-secret: 'someCoolSecretRightHere',
+secret: '__KEY__',
 
-credentials    : [
-  {
-    username : '__ADMIN__',
-    password : '__PASSWORD__'
-  }
-],
+credentials    : [{username : '__ADMIN__',password : '__PASSWORD__'}],
 
 locale: '__LANGUAGE__',
